@@ -1,2 +1,1 @@
-# trabajo-final
-Mi trabajo final de la carrera de Licenciatura en Sistemas de la UNER
+Este repositorio contiene todos los archivos relacionados a mi trabajo final de la Licenciatura en Sistemas, carrera cursada en la Universidad Nacional de Entre Ríos.
