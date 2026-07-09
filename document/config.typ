@@ -19,6 +19,7 @@
   set text(
     font: "Times New Roman",
     size: 12pt,
+    lang: "es",
   )
 
   set par(
