@@ -1,6 +1,10 @@
 #import "config.typ": config
 #show: config
 
+#title()
+
+#pagebreak()
+
 #outline(
   title: "Contenidos",
 )
