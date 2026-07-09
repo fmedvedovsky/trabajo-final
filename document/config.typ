@@ -31,9 +31,16 @@
 
   // Reglas que tienen como objetivo elementos específicos del documento
 
+  // Centrado del título principal
   show title: titulo => {
     align(center, titulo)
   }
+
+  // Espacios arriba y abajo de los títulos
+  show heading: set block(
+    above: 2em,
+    below: 1em,
+  )
 
   doc
 }
