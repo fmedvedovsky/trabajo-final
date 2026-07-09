@@ -1,0 +1,41 @@
+electronic:
+  type: Web
+  title: Ishkur's Guide to Electronic Music
+  serial-number: v2.5
+  author: Ishkur
+  url: http://www.techno.org/electronic-music-guide/
+
+bindgen:
+  type: Web
+  title: The bindgen User Guide
+  url: 
+    value: https://rust-lang.github.io/rust-bindgen/
+    date: 2026-7-9
+
+cbindgen:
+  type: Web
+  title: cbindgen User Guide
+  url: 
+    value: https://github.com/mozilla/cbindgen/blob/main/docs.md
+    date: 2026-7-9
+
+cxx:
+  type: Web
+  title: CXX — safe interop between Rust and C++
+  url: 
+    value: https://cxx.rs/
+    date: 2026-7-9
+
+zngur:
+  type: Web
+  title: Zngur
+  url: 
+    value: https://hkalbasi.github.io/zngur/
+    date: 2026-7-9
+
+crubit:
+  type: Web
+  title: "Crubit: C++/Rust Bidirectional Interop Tool"
+  url: 
+    value: https://crubit.rs/
+    date: 2026-7-9
