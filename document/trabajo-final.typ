@@ -1,5 +1,15 @@
+#import "config.typ": config
+#show: config
+
+#outline(
+  title: "Contenidos",
+)
+
+#pagebreak()
 
 = Fundamentación y estado del arte
+
+#lorem(150)
 
 == Interoperabilidad
 
