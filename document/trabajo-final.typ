@@ -39,7 +39,7 @@ Existen múltiples herramientas pensadas para facilitar la interoperabilidad ent
 #pagebreak()
 
 #bibliography(
-  "citas.yaml",
+  "bibliografia.yaml",
   title: "Bibliografía",
   style: "ieee",
 )
