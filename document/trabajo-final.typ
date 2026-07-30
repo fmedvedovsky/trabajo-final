@@ -14,6 +14,11 @@
 = Fundamentación y estado del arte
 
 == Interoperabilidad
+El desarrollo de software utilizando múltiples lenguajes es una práctica ampliamente reconocida en la actualidad  que permite a los desarrolladores integrar lenguajes de programación, descriptivos, de modelado, entre otros dentro de un mismo proyecto, aprovechando las fortalezas de cada uno de ellos @yang2024multi. Esta práctica es posible gracias a la capacidad de los sistemas de interoperar.
+
+La interoperabilidad es la "habilidad de dos o más sistemas o de sus componentes para utilizarse de forma conjunta e intercambiable." @rae-interop. En el contexto de lenguajes de programación, la interoperabilidad hace referencia a la capacidad de que un sistema de software posea componentes escritos en lenguajes de programación diferentes y que los mismos puedan comunicarse entre sí. Lo anterior puede lograrse a través de dos tipos de mecanismos de interfaz @yang2024multi: la _interfaz implícita_, dónde dos componentes pueden interactuar entre sí a través de métodos de comunicación interproceso (Ej: memoria compartida, pasaje de mensajes por red, etc); y la _interfaz explícita_ dónde los dos lenguajes interactúan usando invocación de funciones a través de lo que se conoce como una interfaz de funciones foráneas (FFI - Foreign Function Interface).
+
+Este trabajo se enfoca en el caso concreto de herramientas que faciliten la comunicación explícita entre código escrito en C++ y Rust.
 
 == Introducción de C++ y Rust
 
@@ -39,7 +44,7 @@ Existen múltiples herramientas pensadas para facilitar la interoperabilidad ent
 #pagebreak()
 
 #bibliography(
-  "bibliografia.yaml",
+  ("bibliografia.yaml", "bibliografia.bib"),
   title: "Bibliografía",
   style: "ieee",
 )

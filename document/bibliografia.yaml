@@ -1,3 +1,14 @@
+rae-interop:
+  type: reference
+  title: Definición de interoperabilidad
+  author: Real Academia Española
+  url:
+    value: https://dpej.rae.es/lema/interoperabilidad
+    date: 2026-7-29
+  parent:
+    type: reference
+    title: Diccionario panhispánico del español jurídico
+
 bindgen:
   type: Web
   title: The bindgen User Guide
