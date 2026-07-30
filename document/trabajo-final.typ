@@ -22,7 +22,10 @@ Este trabajo se enfoca en el caso concreto de herramientas que faciliten la comu
 
 == Introducción de C++ y Rust
 
-== Trabajos previos
+
+== Trabajos relacionados
+A continuación se mencionan algunos de los trabajos relacionados:
+- En @von2024integrating, el autor provee una guía de cómo integrar Rust en una aplicación de C++, cubriendo temas como las bases de la integración de Rust y C++, la introducción de algunas herramientas y librerías (bindgen, cbindgen, cxx y cc) y la presentación de CMake y CMakeRust.
 
 == Herramientas de interoperabilidad entre C++ y Rust
 Existen múltiples herramientas pensadas para facilitar la interoperabilidad entre C++ y Rust. A continuación se presentan algunas de ellas @bindgen @cbindgen @cxx @zngur @crubit:
