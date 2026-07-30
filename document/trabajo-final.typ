@@ -21,7 +21,11 @@ La interoperabilidad es la "habilidad de dos o más sistemas o de sus componente
 Este trabajo se enfoca en el caso concreto de herramientas que faciliten la comunicación explícita entre código escrito en C++ y Rust.
 
 == Introducción de C++ y Rust
+Antes de nombrar trabajos relacionados y herramientas de interoperabilidad, se considera conveniente realizar una breve introducción de los lenguajes con los que se trabajará y los motivos por los que se busca que los mismos interoperen.
 
+C++ (originalmente C con Clases - "C with Classes", renombrado en los 1980s) @cpp-how-to-program es un lenguaje de programación que fue desarrollado por Bjarne Stroustrup en el año 1979 en Bell Laboratories como una extensión del lenguaje C. Inicialmente este lenguaje añadía nuevas características a C, principalmente la capacidad de realizar programación orientada a objetos inspirada por el lenguaje de programación Simula. Con el tiempo, el lenguaje fue evolucionando permitiendo a los programadores utilizar 5 modelos de programación: programación procedural, programación orientada a objetos, programación de estilo funcional, programación genérica y metaprogramación de plantillas. C++ es el lenguaje por excelencia para el desarrollo de sistemas informáticos de alto rendimiento y claves para los negocios, incluyendo sistemas operativos, sistemas de tiempo real, sistemas embebidos, videojuegos, sistemas bancarios, sistemas de control de tráfico aéreo, sistemas de comunicación, entre otros sistemas. Incluso en sistemas programados principalmente en otros lenguajes, C++ es utilizado para las porciones de código que requieren un alto rendimiento.
+
+Por otro lado, Rust, al igual que C++, es un lenguaje de programación de sistemas iniciado como un proyecto de Graydon Hoare en 2006 y cuyo desarrollo fue apoyado por Mozilla a partir de 2009 cuando el lenguaje alcanzó un punto de madurez suficiente para demostrar sus conceptos clave @rust-faq.
 
 == Trabajos relacionados
 A continuación se mencionan algunos de los trabajos relacionados:

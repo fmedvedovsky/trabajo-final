@@ -1,13 +1,32 @@
 rae-interop:
-  type: reference
+  type: Web
   title: Definición de interoperabilidad
   author: Real Academia Española
   url:
     value: https://dpej.rae.es/lema/interoperabilidad
     date: 2026-7-29
   parent:
-    type: reference
-    title: Diccionario panhispánico del español jurídico
+    type: Web
+    title: Diccionario panhispánico del español jurídico (DPEJ)
+
+cpp-how-to-program:
+    type: Book
+    title: "C++ How To Program: An Objects-Natural Approach"
+    author: 
+      - Deitel, Paul 
+      - Deitel, Harvey
+    publisher: "Pearson Education Limited"
+    page-total: 1352
+    date: 2025-05-23
+    isbn: "978-1-292-45998-1"
+    edition: 11
+
+rust-faq:
+  type: Web
+  title: Frequently Asked Questions
+  url:
+    value: https://web.archive.org/web/20160609195720/https://www.rust-lang.org/faq.html#project
+    date: 2026-7-30
 
 bindgen:
   type: Web
