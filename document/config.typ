@@ -24,6 +24,7 @@
 
   set par(
     leading: 1em,
+    justify: true
   )
 
   set heading(

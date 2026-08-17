@@ -20,6 +20,25 @@ La interoperabilidad es la "habilidad de dos o más sistemas o de sus componente
 
 Este trabajo se enfoca en el caso concreto de herramientas que faciliten la comunicación explícita entre código escrito en C++ y Rust.
 
+== Proyectos de software multi-lenguaje
+
+- En @li2024multilingual:
+  - Se encontró analizando 7113 proyectos de Github, que la mayoría de los proyectos multilenguaje estudiados utilizaron de 2 a 5 lenguajes, a pesar de que la cantidad de lenguajes únicos encontrada fue de 296.
+  - Se encontró que en los proyectos se utilizó predominantemente la interfaz implícita (IMI) frente a mecanismos explícitos como la FFI (por ejemplo, JNI).
+  - En el período de 10 años examinado, la diversidad de lenguajes y la prevalencia de software multi-lenguaje creció de forma constante, y la construcción multi-lenguaje se convirtió en la norma predominante en el desarrollo de software moderno, tal y como se observa en los proyectos estudiados.
+  - En los últimos diez años, cada vez más proyectos han utilizado entre tres y cinco lenguajes; tanto la lista de los lenguajes más utilizados como la de las combinaciones lingüísticas más elegidas se han mantenido estables (sobre todo la primera), aunque la clasificación de las combinaciones más utilizadas ha variado considerablemente.
+  - A lo largo de los diez años analizados, se han utilizado mecanismos de interfaz lingüística cada vez más diversos en la construcción multilingüe. Por otra parte, el IMI ha sido, de forma constante, el mecanismo de interfaz predominante.
+  - Con el paso del tiempo, las selecciones de idiomas resultaron menos estables que los idiomas individuales en relación con los ámbitos funcionales de los proyectos multilingües estudiados, aunque algunas selecciones se mostraron más estables en determinados ámbitos que en otros.
+  - El desarrollo de software multilingüe, independientemente del ámbito funcional al que se dirija, se ha caracterizado siempre por contar con determinados mecanismos de interfaz lingüística estrechamente relacionados, que se han vuelto cada vez más híbridos, mixtos y diversos, lo que pone de manifiesto la creciente complejidad del desarrollo de software multilingüe a lo largo del tiempo.
+
+- En @li2022vulnerability:
+  - Mecanismos de interoperabilidad de lenguajes:
+    - * Invocación de funciones externas (FFI).* Una de las principales formas de establecer una interfaz entre los lenguajes de programación más habituales es la FFI [46, 86], mediante la cual el lenguaje anfitrión proporciona una interfaz de funciones externas para adaptar su semántica y sus convenciones de llamada a las del lenguaje invitado. Por ejemplo, Java (el host) ofrece la Interfaz Nativa de Java (JNI) para permitir la interacción con código nativo escrito en C (el invitado). Dos características destacadas de la FFI son que (1) la interfaz del lenguaje sigue las definiciones estándar tal y como están documentadas (por ejemplo, JNI [66], extensión de Python [74]) y (2) las interacciones se implementan mediante invocaciones explícitas de funciones.
+    - *Invocación implícita (IMI).* Definimos la IMI como un mecanismo mediante el cual diferentes componentes de lenguaje interactúan de forma implícita a través de la comunicación entre procesos (IPC), por ejemplo, el intercambio de mensajes basado en sockets. Esto suele observarse en sistemas distribuidos multilingües.
+    - *Encarnación (EBD):* Los lenguajes implicados no interactúan mediante invocaciones explícitas o implícitas, sino a través de la encarnación de uno en el otro; la interacción real suele tener lugar dentro del sistema de ejecución subyacente (por ejemplo, el motor de un navegador web) que ejecuta el programa multilingüaje. Por lo general, estos lenguajes son interdependientes entre sí e incluso coexisten. Por ejemplo, la interacción en la selección de lenguajes {css, html, javascript} se realiza mediante EBD, tal y como se observa en las aplicaciones web.
+    - *Interacción oculta (HIT).* En una selección con este mecanismo, no hay ningún indicio a nivel de código de conexión, ni siquiera implícita, entre los lenguajes. La interacción suele llevarse a cabo mediante el intercambio de datos externos. Por ejemplo, un componente de Python descarga datos de la web como entradas para un analizador escrito en C.
+
+
 == Introducción de C++ y Rust
 Antes de nombrar trabajos relacionados y herramientas de interoperabilidad, se considera conveniente realizar una breve introducción de los lenguajes con los que se trabajará y los motivos por los que se busca que los mismos interoperen.
 
