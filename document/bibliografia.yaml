@@ -10,55 +10,61 @@ rae-interop:
     title: Diccionario panhispánico del español jurídico (DPEJ)
 
 cpp-how-to-program:
-    type: Book
-    title: "C++ How To Program: An Objects-Natural Approach"
-    author: 
-      - Deitel, Paul 
-      - Deitel, Harvey
-    publisher: "Pearson Education Limited"
-    page-total: 1352
-    date: 2025-05-23
-    isbn: "978-1-292-45998-1"
-    edition: 11
+  type: Book
+  title: "C++ How To Program: An Objects-Natural Approach"
+  author:
+    - Deitel, Paul
+    - Deitel, Harvey
+  publisher: "Pearson Education Limited"
+  page-total: 1352
+  date: 2025-05-23
+  isbn: "978-1-292-45998-1"
+  edition: 11
 
-rust-faq:
-  type: Web
-  title: Frequently Asked Questions
-  url:
-    value: https://web.archive.org/web/20160609195720/https://www.rust-lang.org/faq.html#project
-    date: 2026-7-30
+programming-rust:
+  type: book
+  title: "Programming Rust: Fast, Safe Systems Development"
+  edition: 2
+  author:
+    - Blandy, Jim
+    - Orendorff, Jason
+    - Tindall, Leonora F. S.
+  date: 2021-06
+  publisher: O'Reilly Media
+  location: Sebastopol, CA
+  isbn: "978-1-492-05259-3"
 
 bindgen:
   type: Web
   title: The bindgen User Guide
-  url: 
+  url:
     value: https://rust-lang.github.io/rust-bindgen/
     date: 2026-7-9
 
 cbindgen:
   type: Web
   title: cbindgen User Guide
-  url: 
+  url:
     value: https://github.com/mozilla/cbindgen/blob/main/docs.md
     date: 2026-7-9
 
 cxx:
   type: Web
   title: CXX — safe interop between Rust and C++
-  url: 
+  url:
     value: https://cxx.rs/
     date: 2026-7-9
 
 zngur:
   type: Web
   title: Zngur
-  url: 
+  url:
     value: https://hkalbasi.github.io/zngur/
     date: 2026-7-9
 
 crubit:
   type: Web
   title: "Crubit: C++/Rust Bidirectional Interop Tool"
-  url: 
+  url:
     value: https://crubit.rs/
     date: 2026-7-9
